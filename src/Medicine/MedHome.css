@@ -1,0 +1,45 @@
+.medhome-container {
+    display: flex;
+    height: 100vh; /* Full height */
+  }
+  
+  .sidebar {
+    width: 200px; 
+    background-color: #9affc6; 
+  }
+  
+  .head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .menu li {
+    margin: 20px 0;
+    border-bottom:  1px solid #4d4d4d;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .menu .the {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Text color */
+  }
+  
+  .menu .the:hover {
+    color: #4d4d4d; /* Darker color on hover */
+  }
+  .sidebar h2{
+    margin-top: 15px;
+  }
+  .content {
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Padding around the content */
+    background-color: white; /* Background color for the content */
+  }
+  

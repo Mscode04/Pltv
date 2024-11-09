@@ -1,0 +1,51 @@
+.search-container {
+    
+    background-color: #f9f9f9; /* Light background for the container */
+    border-radius: 8px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px; /* Space between input and button */
+    margin-bottom: 20px; /* Space below the search bar */
+  }
+  
+  .search-bar input {
+    flex: 1; /* Input takes up the remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    background-color: #9affc6; /* Your theme color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #8de7b4; /* Darker variant on hover */
+  }
+  
+  .results-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Merge borders */
+  }
+  
+  .results-table th, .results-table td {
+    border: 1px solid #ccc; /* Light border for cells */
+    padding: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .results-table th {
+    background-color: #9affc6; /* Header background color */
+    color: black; /* Header text color */
+  }
+  
+  .results-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra stripes for even rows */
+  }
+  

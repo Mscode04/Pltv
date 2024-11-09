@@ -1,0 +1,105 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.custom-search-bar {
+  padding: 5px;
+  width: 500px !important;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Custom Category Section */
+.custom-category-section {
+  margin: 20px 0;
+  display: flex;
+}
+
+.custom-category-select, .custom-date-select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.custom-filter-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Custom Data Table */
+.custom-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-data-table th, .custom-data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-explore-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Custom Full-Screen Modal Styles */
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.custom-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.custom-close-button {
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.custom-back-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-back-button:hover {
+  background-color: #d32f2f;
+}

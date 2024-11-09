@@ -1,0 +1,55 @@
+.ophome-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #9affc6;
+    border-right: 1px solid #ccc;
+  }
+  
+  .head {
+    background-color: #53916e;
+    padding: 5px;
+    height: 50px;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #f0fff7;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    height: 50px;
+    border-bottom: 1px solid #f0fff7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .the {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+    width: 100%; /* Ensures the link fills the li */
+    text-align: center; /* Centers text in the li */
+    line-height: 50px; /* Vertically centers text */
+  }
+  
+  .menu li:hover .the {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

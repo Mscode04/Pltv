@@ -1,0 +1,51 @@
+.unique-purchase-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #9affc6;
+  
+}
+
+.unique-purchase-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.unique-purchase-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.unique-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.unique-form-group label {
+  font-weight: bold;
+}
+
+.unique-form-group input,
+.unique-form-group select,
+.unique-form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.unique-submit-button {
+  padding: 12px;
+  background-color: #9affc6;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.unique-submit-button:hover {
+  background-color: #76e0a1;
+}

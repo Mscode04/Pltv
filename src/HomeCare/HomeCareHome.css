@@ -1,0 +1,65 @@
+.homecare-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #9affc6;
+    border-right: 1px solid #ccc;
+    padding-left: 0 !important;
+  } 
+  
+  .head{
+    background-color: #21382b !important;
+    padding:10px;
+    margin-left: o !important;
+    height: 50px;
+    width: 200px!important;
+  }
+  .sidebar h2 {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: #f0fff7;
+    
+    
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+  li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .the{
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+    
+  }
+  .menu:hover {
+    color: #007bff;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .menuHomeCare{
+    height: 150px;
+    width: 200px;
+    margin-bottom: 40px !important;
+    
+  }

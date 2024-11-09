@@ -1,0 +1,163 @@
+/* Full-Screen Modal Styles */
+.report-overlay-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure it appears above other content */
+}
+
+.report-modal-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 1200px; /* Maximum width for content */
+  position: relative;
+}
+
+.report-modal-close, .report-back-btn {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.report-back-btn {
+  margin-top: 20px; /* Space between PatientCard and button */
+  padding: 10px 15px;
+  background-color: #e13c30; /* Red color for emphasis */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.report-back-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.report-modal-body {
+  padding: 20px; /* Padding inside the modal body */
+}
+
+/* Additional Styling */
+.report-header-bar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  height: 80px;
+  justify-content:space-between;
+}
+
+.report-search-field {
+  padding: 5px;
+  border-radius: 4px;
+  width: 500px !important;
+  height: 50px;
+}
+
+.report-category-controls {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.report-dropdown {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.report-filter-btn {
+  background-color: #5cb85c;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.report-print-btn {
+  background-color: #0275d8;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.report-data-grid {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.report-data-grid th, .report-data-grid td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.report-showmore-btn {
+  background-color: #f0ad4e;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.report-showmore-btn:hover {
+  background-color: #ec971f;
+}
+/* Full-Screen Modal Styles */
+.report-overlay-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.report-modal-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 95vw; /* Adapt to viewport width */
+  max-width: 1000px; /* Keep a maximum width for readability */
+  max-height: 90vh; /* Avoid going off-screen vertically */
+  overflow-y: auto; /* Enable scrolling if content is too long */
+  position: relative;
+}
+
+.report-modal-close, .report-back-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.report-back-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #8ff436;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.report-back-btn:hover {
+  background-color: #d32f2f;
+}
+
+.report-modal-body {
+  padding: 20px;
+}

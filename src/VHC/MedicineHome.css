@@ -1,0 +1,43 @@
+.medicine-home-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    background-color: #9affc6; /* Your theme color */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu .the {
+    text-decoration: none;
+    color: black; /* Text color */
+    padding: 10px;
+    display: block; /* Make the link fill the entire li */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .menu .the:hover {
+    background-color: #8de7b4; /* Hover color */
+  }
+  
+  .content {
+    flex: 1; /* Fill the remaining space */
+    padding: 20px;
+    background-color: white; /* Content background */
+  }
+  

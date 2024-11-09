@@ -1,0 +1,120 @@
+/* Define color variables */
+:root {
+    --primary-bg: #6fc89b;
+    --primary-border: #9affc6;
+    --primary-text: #232323;
+    --secondary-bg: #649a7f;
+    --highlight-text: #385344;
+    --heading-text: #000000;
+    --dark-border: #1c1c1c;
+    --table-border: #1b2922;
+    --neutral-bg: #7e7e7e;
+    --white: #ffffff;
+    --black: #1c1c1c;
+    --mint-dark: #649a7f;
+    --mint-green: #9affc6;
+  }
+  .cross{
+    height: 40px;
+    width: 40px;
+  }
+  /* General Styles */
+  .patient-card {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    border: 2px solid var(--primary-border);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .patient-header {
+    color: var(--highlight-text);
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .detail-heading {
+    color: var(--heading-text);
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .patient-details,
+  .welfare-schemes,
+  .medical-history,
+  .dhc-nhc {
+    background-color: var(--primary-bg);
+    padding: 10px;
+    border: 1px solid var(--dark-border);
+    border-radius: 5px;
+  }
+  
+  /* Table Styles */
+  .medicine-table,
+  .family-table,
+  .vital-signs-table {
+    width: 100%;
+    color: var(--black);
+  }
+  
+  .medicine-table th,
+  .family-table th,
+  .vital-signs-table th {
+    background-color: var(--secondary-bg);
+  }
+  
+  .table-row {
+    border-bottom: 1px solid var(--table-border);
+  }
+  
+  .catogori {
+    background-color: var(--neutral-bg);
+    height: 100px;
+  }
+  
+  /* Category Section */
+  .category-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: var(--primary-bg);
+    border: 2px solid var(--mint-dark);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-select,
+  .filter-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--mint-dark);
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  .category-select:focus,
+  .filter-button:hover {
+    border-color: var(--mint-green);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filter-button {
+    background-color: var(--mint-dark);
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: var(--mint-green);
+    color: var(--black);
+  }
+  

@@ -1,0 +1,118 @@
+/* Global Reset */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Main Container */
+.home-container {
+  height: 100vh;
+  background-color: #e2f9ec; /* Light healthcare theme background */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color:#9affc6!important; 
+  width: 100%; 
+  height: 80px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+.nav-link {
+  color: rgb(50, 50, 50) !important; 
+  font-size: 23px;
+  
+}
+li{
+  border-bottom: 0 !important;
+  
+}
+.nav-link:hover {
+  color: #3b4d3d !important;
+  cursor: pointer;
+}
+
+
+.home-heading {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.home-description {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.home-card {
+  border: none;
+  margin-top: 10px;
+  background-color: #9affc6;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.card-sec{
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #619b7a;
+}
+
+footer {
+  color: #363636;
+  background: linear-gradient(to top, #9affc6, #e2f9ec);
+  padding-top: 20px;
+}
+
+
+/* Responsive Media Queries */
+@media (max-width: 576px) {
+  .home-heading {
+    font-size: 1.5rem;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-card {
+    max-width: 350px;
+  }
+}
